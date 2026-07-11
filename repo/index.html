@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Despacho Semanal — Geopolítica, Economía y Mercados</title>
+<meta name="description" content="Análisis semanal de geopolítica, economía y mercados internacionales, basado en fuentes fiables.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="ticker" aria-label="Titulares destacados de la semana">
+  <div class="ticker__track" id="ticker-track"></div>
+</div>
+
+<header class="masthead">
+  <h1 class="masthead__title">Despacho Semanal</h1>
+  <div class="masthead__meta">
+    <div id="meta-edition"></div>
+    <div id="meta-date"></div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="dateline" id="hero-dateline"></div>
+    <h2 class="hero__headline" id="hero-headline"></h2>
+    <p class="hero__summary" id="hero-summary"></p>
+  </section>
+
+  <div id="sections-container"></div>
+
+  <section class="feedback">
+    <div class="feedback__box">
+      <h2>¿Comentarios o correcciones?</h2>
+      <p>Este despacho se construye y se corrige semana a semana. Si detectas un error o quieres proponer un tema, escríbenos.</p>
+      <a class="feedback__button" href="mailto:tu-correo@ejemplo.com?subject=Feedback%20Despacho%20Semanal">
+        Enviar feedback →
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div id="footer-sources"></div>
+  <div style="margin-top: 0.5rem;">© <span id="footer-year"></span> Despacho Semanal. Publicación independiente sin fines comerciales.</div>
+</footer>
+
+<script src="assets/js/content.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+  document.getElementById("footer-year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340">
+  <rect width="600" height="340" fill="#fffcf5"/>
+  <g fill="none" stroke="#ddceac" stroke-width="1">
+    <line x1="40" y1="40" x2="40" y2="290"/>
+    <line x1="40" y1="290" x2="570" y2="290"/>
+  </g>
+  <rect x="80" y="150" width="55" height="140" fill="#cf9a3e"/>
+  <rect x="170" y="120" width="55" height="170" fill="#cf9a3e"/>
+  <rect x="260" y="190" width="55" height="100" fill="#7f8f4e"/>
+  <rect x="350" y="100" width="55" height="190" fill="#cf9a3e"/>
+  <rect x="440" y="210" width="55" height="80" fill="#7f8f4e"/>
+  <text x="300" y="320" text-anchor="middle" font-family="monospace" font-size="14" fill="#82775a">PLACEHOLDER — sustituir por gráfico real</text>
+</svg>

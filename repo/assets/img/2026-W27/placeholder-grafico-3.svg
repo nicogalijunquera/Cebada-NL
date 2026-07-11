@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340">
+  <rect width="600" height="340" fill="#161d27"/>
+  <g fill="none" stroke="#2a323c" stroke-width="1">
+    <line x1="40" y1="40" x2="40" y2="290"/>
+    <line x1="40" y1="290" x2="570" y2="290"/>
+  </g>
+  <polyline points="40,150 130,160 220,120 310,140 400,90 490,100 560,70"
+    fill="none" stroke="#4c9a6a" stroke-width="3"/>
+  <polyline points="40,200 130,210 220,230 310,215 400,240 490,225 560,245"
+    fill="none" stroke="#b8563f" stroke-width="3"/>
+  <text x="300" y="320" text-anchor="middle" font-family="monospace" font-size="14" fill="#9aa3ad">PLACEHOLDER — sustituir por gráfico real</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340">
+  <rect width="600" height="340" fill="#fffcf5"/>
+  <g fill="none" stroke="#ddceac" stroke-width="1">
+    <line x1="0" y1="85" x2="600" y2="85"/>
+    <line x1="0" y1="170" x2="600" y2="170"/>
+    <line x1="0" y1="255" x2="600" y2="255"/>
+    <line x1="150" y1="0" x2="150" y2="340"/>
+    <line x1="300" y1="0" x2="300" y2="340"/>
+    <line x1="450" y1="0" x2="450" y2="340"/>
+  </g>
+  <path d="M150,120 Q240,60 320,180 T430,90" fill="none" stroke="#7f8f4e" stroke-width="3"/>
+  <circle cx="150" cy="120" r="10" fill="#cf9a3e"/>
+  <circle cx="320" cy="180" r="12" fill="#cf9a3e"/>
+  <circle cx="430" cy="90" r="8" fill="#cf9a3e"/>
+  <text x="300" y="320" text-anchor="middle" font-family="monospace" font-size="14" fill="#82775a">PLACEHOLDER — sustituir por mapa real</text>
+</svg>
